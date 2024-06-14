@@ -19,7 +19,7 @@ module.exports = {
         }
 
         try {
-            const filter = `bass=g=${level}`;
+            const filter = `bass=g=${1000}`;
             queue.filters.clear()
             queue.filters.add({
                 name: 'bassboost',
